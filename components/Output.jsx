@@ -3,7 +3,6 @@ import {
   Input,
   InputGroup,
   InputRightElement,
-  Text,
   useClipboard,
 } from '@chakra-ui/react';
 
