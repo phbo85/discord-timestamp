@@ -81,7 +81,7 @@ export default function Home() {
             my="4"
           />
           <Text>
-            Result: <strong>{parsedTime}</strong>
+            Result: <strong>{parsedTime}</strong> (local time)
           </Text>
           <Output output={output} />
           <Stack spacing={5} direction="row" mt="2">
