@@ -67,9 +67,9 @@ export default function Home() {
             ⌛ Discord Timestamp Maker ⌛
           </Heading>
           <Text color="gray.200" fontSize="sm">
-            Enter a time in natural language to create timestamps (e.g.
-            `&quot5pm`&quot, `&quottomorrow 9pm`&quot, `&quot8 UTC`&quot or
-            `&quot10:30 IST`&quot)
+            Enter a time in natural language to create timestamps (e.g.{' '}
+            <i>5pm</i>, <i>tomorrow 9pm</i>, <i>8 UTC</i> or
+            <i> 10:30 IST</i>)
           </Text>
           <Input
             value={value}
