@@ -62,6 +62,7 @@ export default function Home() {
             backdropBlur="8px"
             backdropBrightness="50%"
             rounded="3xl"
+            shadow="2xl"
             padding="4"
             maxW="xl"
           >
@@ -112,7 +113,7 @@ export default function Home() {
                 <FormLabel mb="1">Code</FormLabel>
                 <Output output={output} />
                 <FormHelperText>
-                  Copy this code and paste it in your Discord message
+                  Copy this code and paste it into your discord message
                 </FormHelperText>
               </FormControl>
             </VStack>
