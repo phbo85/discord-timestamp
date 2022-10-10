@@ -11,7 +11,7 @@ export default function Output({ output }) {
 
   return (
     <InputGroup>
-      <Input value={output} isReadOnly />
+      <Input fontFamily="monospace" value={output} isReadOnly />
       <InputRightElement width="4.5rem">
         <Button disabled={!output} onClick={onCopy} h="1.75rem" size="sm">
           {hasCopied ? 'Copied' : 'Copy'}
