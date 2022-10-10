@@ -1,22 +1,8 @@
 import { useState, useEffect } from 'react';
-import Head from 'next/head';
-import {
-  Stack,
-  Checkbox,
-  Input,
-  Box,
-  Center,
-  Heading,
-  Switch,
-  FormControl,
-  FormLabel,
-  FormHelperText,
-  VStack,
-} from '@chakra-ui/react';
+import { FormControl, FormLabel } from '@chakra-ui/react';
 import * as chrono from 'chrono-node';
-import Output from '../components/Output';
-import DiscordTimeStamp from '../components/DiscordTimeStamp';
 import DiscordMessage from '../components/DiscordMessage';
+import DiscordTimeStamp from '../components/DiscordTimeStamp';
 
 const units = {
   year: 24 * 60 * 60 * 1000 * 365,
