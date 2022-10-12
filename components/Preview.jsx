@@ -54,7 +54,9 @@ const Preview = ({ value, showDate, showCountdown }) => {
         {parsedTime && (
           <>
             <DiscordTimeStamp>{parsedTime}</DiscordTimeStamp>{' '}
-            <DiscordTimeStamp>{parsedCountdown}</DiscordTimeStamp>
+            {showCountdown && (
+              <DiscordTimeStamp>{parsedCountdown}</DiscordTimeStamp>
+            )}
           </>
         )}
       </DiscordMessage>

@@ -56,7 +56,7 @@ export default function Home() {
         minH="100vh"
         w="full"
       >
-        <Center minH="89vh">
+        <Center minH="88vh">
           <Box
             backdropFilter="auto"
             backdropBlur="8px"
